@@ -1,2 +1,2 @@
 # POKEAPI
-Meu codigo consome informações da POKÉAPI com a inteção de crirar uma pokedex, ou seja, você solicita um pokemon e o código retorna todar as informações daquele pokemon.
+Meu codigo consome informações da POKÉAPI com a inteção mostrar todas as evolições do pokemon solicitado, ou seja, você solicita um pokemon e o código retorna todas as evoluções do pokemon.
