@@ -11,7 +11,7 @@ def todas_evolucoes(lista):
                     break
                 else:
                     for pokemon in lista:
-                        print(pokemon )
+                        print(pokemon)
                     break
             elif evolucao_pokemon == 'N':
                 break

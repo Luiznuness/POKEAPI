@@ -33,6 +33,9 @@ def evolution(url):
         evolution_finish = ', '.join(evolution_finish)
         return f"{first_evolution},{meio_evolution},{evolution_finish}"
 
+    elif len(começo['evolves_to'][0]['evolves_to']) == 1:
+        evolution_finish = começo['evolves_to'][0]['evolves_to'][0]['species']['name']
+    
     else:
         evolution_finish = ''
     return f"{first_evolution},{meio_evolution},{evolution_finish}"
